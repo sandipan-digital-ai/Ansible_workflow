@@ -4,3 +4,16 @@
 
 Github action to intiate the demo with selected containers
 Github action to delete the containers
+
+# 7.2.1.	Github Action to Create Containers for Scenarios
+
+The workflow is configured to start when a GitHub events occurs. The workflow has been created in GitHub repository as a YML file. The github action workflow files are created under “.github/”. The files are created in “.yaml” format.
+
+The workflow file is defined by a YAML (.yaml) file in the /.github/workflows/ path in the repository. This definition contains the various steps and parameters that make up the workflow.
+
+#### The github action workflow  contains the following section :
+
+I.	Github VM creation
+II.	Pre-requisites for running ansible k8s module
+III.	Azure cluster setup along with secret keys
+IV.	Ansible installation and execution of playbook
