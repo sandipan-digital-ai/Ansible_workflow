@@ -1,3 +1,7 @@
-This section of the document gives an overview of the solution architecture on activities related to Github action as a CD pipeline integrated with Ansible to  intiate containers in  Azure Kubernetes Service. The application is developed using microservice architecture to support better agility, independent deployment, and scalability.
+7.2. Github Action Wokflow
 
-The user selects the tool and the version from the from end from an approved list of tools. The front end collects the data and sends the list of selected tool to Github action workflow through an API calling the required containers. 
+The GitHub action workflow allows to create custom workflow directly in the GitHub repository. This helps in running different tasks automatically based on the events. This also helps in CI/CD capabilities directly in the repository. The workflow has been created in the GitHub repository which receives the API call from the webserver and the actions defined in the workflow gets triggered followed with running of the Ansible Playbook. The structure and the content of the workflow and the Ansible playbook has been described in this document. The Github action are created for the below two scenarios:
+
+Github action to intiate the demo with selected containers
+Github action to delete the containers
+ 
