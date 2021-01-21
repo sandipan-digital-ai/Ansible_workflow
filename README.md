@@ -1,4 +1,4 @@
- # 7.2.	Github Action Wokflow
+# 7.2.	Github Action Wokflow
 
 The GitHub action workflow allows to create custom workflow directly in the GitHub repository. This helps in running different tasks automatically based on the events. This also helps in CI/CD capabilities directly in the repository.
 The workflow has been created in the GitHub repository which receives the API call from the webserver and the actions defined in the workflow gets triggered followed with running of the Ansible Playbook. The structure and the content of the workflow and the Ansible playbook has been described in this document. The Github action are created for the below two scenarios:
@@ -47,18 +47,18 @@ In this step ansible is installed in the github VM and executes the playbook  �
 
 ##### 1.  After the play book is run successfully, the window with build with ticks on steps is displayed.
 
-##### 2.  2.	The output details are displayed here with to show the successful completion of the tasks as defined:-
+##### 2.  The output details are displayed here with to show the successful completion of the tasks as defined:-
      ######  I.  Set up Job – The workflow action set up is completed successfully
      ###### II.  Param Container deployment – The param container deployment workflow is initiated successfully.
     ###### III. Check out – The checkout confirms the successful installation and availability of Ansible software for further execution
-	###### IV. Check ansible version – In this step the ansible version is checked 
-	###### V. Echo value – The user input is fetched successfully
-	###### VI. Adding timestamp – the timestamp at which the workflow started is generated and is successful in passing the timestamp to the next step
-	###### VII. User current time – the current timestamp is extracted in the required format
-	###### VIII. Run Ansible playbook – the ansible playbook is run and is successful
-	###### IX. Complete job – The complete steps are successful and shows the completion of the workflow
+    ###### IV. Check ansible version – In this step the ansible version is checked 
+   ###### V. Echo value – The user input is fetched successfully
+   ###### VI. Adding timestamp – the timestamp at which the workflow started is generated and is successful in passing the timestamp to the next step
+   ###### VII. User current time – the current timestamp is extracted in the required format
+   ###### VIII. Run Ansible playbook – the ansible playbook is run and is successful
+  ###### IX. Complete job – The complete steps are successful and shows the completion of the workflow
 
-##### The current tool may need addition of new tools in future based on the requirement. These tools should be updated following the current format and structure followed to avoid any error. The up-dation can be of two types:-
+  ##### The current tool may need addition of new tools in future based on the requirement. These tools should be updated following the current format and structure followed to avoid any error. The up-dation can be of two types:-
 
 I.  Create new tool and append to the list of existing tool
 II.  Adding new version of the existing tool
