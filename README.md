@@ -45,13 +45,13 @@ In this step ansible is installed in the github VM and executes the playbook  �
 
 ## Github Action Checking:-
 
-##### 1.  After the play book is run successfully, the window with build with ticks on steps is displayed.
+  ###### 1. 	After the play book is run successfully, the window with build with ticks on steps is displayed.
 
-##### 2.  The output details are displayed here with to show the successful completion of the tasks as defined:-
-     ######  I.  Set up Job – The workflow action set up is completed successfully
-     ###### II.  Param Container deployment – The param container deployment workflow is initiated successfully.
-    ###### III. Check out – The checkout confirms the successful installation and availability of Ansible software for further execution
-    ###### IV. Check ansible version – In this step the ansible version is checked 
+##### 2. The output details are displayed here with to show the successful completion of the tasks as defined:-
+  ######  I. 	Set up Job – The workflow action set up is completed successfully.
+   ###### II.  Param Container deployment – The param container deployment workflow is initiated successfully.
+   ###### III. Check out – The checkout confirms the successful installation and availability of Ansible software for further execution
+   ######  IV. Check ansible version – In this step the ansible version is checked 
    ###### V. Echo value – The user input is fetched successfully
    ###### VI. Adding timestamp – the timestamp at which the workflow started is generated and is successful in passing the timestamp to the next step
    ###### VII. User current time – the current timestamp is extracted in the required format
